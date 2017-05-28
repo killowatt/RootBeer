@@ -4,6 +4,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 15.0.26430.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "RendererGL", "Targets\VS2017\RendererGL.vcxproj", "{6D43FF61-9770-45E4-8373-6EB81DB6EEDB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5C4FD200-7457-424D-8579-807EEED8D7FB} = {5C4FD200-7457-424D-8579-807EEED8D7FB}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Engine", "Targets\VS2017\Engine.vcxproj", "{5C4FD200-7457-424D-8579-807EEED8D7FB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +20,10 @@ Global
 		{6D43FF61-9770-45E4-8373-6EB81DB6EEDB}.Debug|x64.Build.0 = Debug|x64
 		{6D43FF61-9770-45E4-8373-6EB81DB6EEDB}.Release|x64.ActiveCfg = Release|x64
 		{6D43FF61-9770-45E4-8373-6EB81DB6EEDB}.Release|x64.Build.0 = Release|x64
+		{5C4FD200-7457-424D-8579-807EEED8D7FB}.Debug|x64.ActiveCfg = Debug|x64
+		{5C4FD200-7457-424D-8579-807EEED8D7FB}.Debug|x64.Build.0 = Debug|x64
+		{5C4FD200-7457-424D-8579-807EEED8D7FB}.Release|x64.ActiveCfg = Release|x64
+		{5C4FD200-7457-424D-8579-807EEED8D7FB}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
