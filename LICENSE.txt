@@ -1,0 +1,4 @@
+Copyright 2017 Thomas Hays, William Yates
+
+RootBeer uses third party software for certain functionality. The
+required legal notices for the software used are found below.
